@@ -4,6 +4,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.web.project.SpringBootWeb.models.Administrador;
 
-public interface AdministradorRepo extends CrudRepository<Administrador, Integer>{
+public interface AdministradoresRepo extends CrudRepository<Administrador, Integer>{
     
 }
